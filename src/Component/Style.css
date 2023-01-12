@@ -1,0 +1,87 @@
+.Su{
+    background-color: red;
+    grid-column-start: 7;
+    text-align: center;
+    color: white;
+}
+.Sa{
+    grid-column-start: 6;
+    text-align: center;
+}
+.Fr{
+    grid-column-start: 5;
+    text-align: center;
+}
+.Th{
+    grid-column-start: 4;
+    text-align: center;
+}
+.We{
+    grid-column-start: 3;
+    text-align: center;
+}
+.Tu{
+    grid-column-start: 2;
+    text-align: center;
+}
+.Mo{
+    grid-column-start: 1;
+    text-align: center;
+}
+.calendar{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(7,50px);
+    border: 1px solid black;
+    padding: 2px;
+    margin: 0 auto;
+    border-radius: 20px;
+    min-height: 405px;
+    column-gap: 5px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #f3f4f6, #fff)
+}
+p{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 15px;
+    flex-direction: column;
+    border-radius: 10px;   
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.inputs{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h2{
+    text-align: center;
+    display: inline;    
+}
+.year{
+    width: 150px;
+}
+b{
+    height: 90%;
+    font-size: 20px;
+}
+
+.today{
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
